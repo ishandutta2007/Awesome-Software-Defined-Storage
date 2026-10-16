@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Software-Defined-Storage/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-Defined-Storage?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-Defined-Storage/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-Defined-Storage?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Software-Defined-Storage/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Software-Defined-Storage?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Software-Defined-Storage/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
@@ -69,63 +69,63 @@ The open-source storage ecosystem provides hardware independence, zero vendor lo
 
 ### Top Open-Source SDS Platforms (Ranked by Stars)
 
-Each repository below is sorted in **descending order by GitHub star count**, with a real-time badge linking directly to the project's stargazers.
+Each repository below is sorted in **descending order by GitHub Stars_Count**, with a real-time badge linking directly to the project's stargazers.
 
-1. **[MinIO](https://github.com/minio/minio)** [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&label=Stars&color=white)](https://github.com/minio/minio/stargazers)  
+1. **[MinIO](https://github.com/minio/minio)** [![GitHub_Stars](https://img.shields.io/github/stars/minio/minio?style=social&label=Stars&color=white)](https://github.com/minio/minio/stargazers)  
    **High-Performance Kubernetes-Native Object Storage** — The standard for S3-compatible cloud-native storage. Written in Go, MinIO delivers blazing performance (tens of GB/s per node), multi-tenant isolation, inline erasure coding, bitrot protection, and server-side encryption. Ideal for private cloud S3 APIs, AI/ML pipelines, and modern data lakes.
 
-2. **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)** [![GitHub stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&label=Stars&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers)  
+2. **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)** [![GitHub_Stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&label=Stars&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers)  
    **Fast Distributed File, Object, and Key-Value Store** — Based on the Facebook Haystack design papers with an added Filer metadata layer. Handles billions of small files with constant O(1) disk read operations, POSIX filesystem mounts via FUSE, S3 API support, and cross-datacenter multi-master replication.
 
-3. **[Ceph](https://github.com/ceph/ceph)** [![GitHub stars](https://img.shields.io/github/stars/ceph/ceph?style=social&label=Stars&color=white)](https://github.com/ceph/ceph/stargazers)  
+3. **[Ceph](https://github.com/ceph/ceph)** [![GitHub_Stars](https://img.shields.io/github/stars/ceph/ceph?style=social&label=Stars&color=white)](https://github.com/ceph/ceph/stargazers)  
    **The Unified Distributed Storage Standard** — The most widely deployed enterprise open-source SDS platform in the world. Unifies three distinct interfaces over the RADOS cluster: **CephFS** (POSIX shared file system), **RBD** (scale-out block storage), and **RGW** (S3/Swift object gateway). CRUSH algorithm eliminates central lookup bottlenecks.
 
-4. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&label=Stars&color=white)](https://github.com/juicedata/juicefs/stargazers)  
+4. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub_Stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&label=Stars&color=white)](https://github.com/juicedata/juicefs/stargazers)  
    **Cloud-Native POSIX File System Built on Redis/SQL & S3** — Decouples metadata storage (Redis, MySQL, PostgreSQL, TiKV) from data storage (any S3-compatible object storage). Delivers full POSIX compliance, transparent data caching, extreme concurrent file access, and Kubernetes CSI driver integration.
 
-5. **[Rook](https://github.com/rook/rook)** [![GitHub stars](https://img.shields.io/github/stars/rook/rook?style=social&label=Stars&color=white)](https://github.com/rook/rook/stargazers)  
+5. **[Rook](https://github.com/rook/rook)** [![GitHub_Stars](https://img.shields.io/github/stars/rook/rook?style=social&label=Stars&color=white)](https://github.com/rook/rook/stargazers)  
    **Cloud-Native Storage Orchestrator for Kubernetes (CNCF Graduated)** — Turns Ceph and other distributed storage platforms into self-managing, self-scaling, and self-healing Kubernetes-native storage services with dynamic CSI volume provisioning.
 
-6. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&label=Stars&color=white)](https://github.com/openzfs/zfs/stargazers)  
+6. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub_Stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&label=Stars&color=white)](https://github.com/openzfs/zfs/stargazers)  
    **Advanced Enterprise File System and Volume Manager** — The foundational software storage engine underpinning TrueNAS, Proxmox, and enterprise storage arrays. Provides copy-on-write transactional semantics, pooled storage (zpools), snapshot trees, native encryption, and cryptographic checksumming against silent data corruption.
 
-7. **[OpenEBS](https://github.com/openebs/openebs)** [![GitHub stars](https://img.shields.io/github/stars/openebs/openebs?style=social&label=Stars&color=white)](https://github.com/openebs/openebs/stargazers)  
+7. **[OpenEBS](https://github.com/openebs/openebs)** [![GitHub_Stars](https://img.shields.io/github/stars/openebs/openebs?style=social&label=Stars&color=white)](https://github.com/openebs/openebs/stargazers)  
    **Container-Attached Storage (CAS) for Kubernetes (CNCF Project)** — Deploys dedicated storage controllers per workload pod. Offers local NVMe/SSD engines (Mayastor) with ultra-low latency, replicated high-availability volumes, and automated CSI snapshotting.
 
-8. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&label=Stars&color=white)](https://github.com/longhorn/longhorn/stargazers)  
+8. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub_Stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&label=Stars&color=white)](https://github.com/longhorn/longhorn/stargazers)  
    **Lightweight, Reliable Cloud-Native Distributed Block Storage (CNCF Incubating)** — Developed by SUSE Rancher. Implements micro-controllers per persistent volume with synchronous replication across Kubernetes nodes, built-in backup snapshots to secondary object storage, and automated volume expansion.
 
-9. **[CubeFS](https://github.com/cubefs/cubefs)** [![GitHub stars](https://img.shields.io/github/stars/cubefs/cubefs?style=social&label=Stars&color=white)](https://github.com/cubefs/cubefs/stargazers)  
+9. **[CubeFS](https://github.com/cubefs/cubefs)** [![GitHub_Stars](https://img.shields.io/github/stars/cubefs/cubefs?style=social&label=Stars&color=white)](https://github.com/cubefs/cubefs/stargazers)  
    **Cloud-Native Distributed File and Object Storage (CNCF Project)** — Combines separate metadata, data, and object subsystems. Designed to bridge big data analytical workloads and containerized microservices across hybrid cloud clusters.
 
-10. **[GlusterFS](https://github.com/gluster/glusterfs)** [![GitHub stars](https://img.shields.io/github/stars/gluster/glusterfs?style=social&label=Stars&color=white)](https://github.com/gluster/glusterfs/stargazers)  
+10. **[GlusterFS](https://github.com/gluster/glusterfs)** [![GitHub_Stars](https://img.shields.io/github/stars/gluster/glusterfs?style=social&label=Stars&color=white)](https://github.com/gluster/glusterfs/stargazers)  
     **Scalable Network Cluster Filesystem** — Aggregates storage bricks into unified distributed and replicated volumes over TCP/IP or InfiniBand RDMA without a dedicated metadata server.
 
-11. **[Storj](https://github.com/storj/storj)** [![GitHub stars](https://img.shields.io/github/stars/storj/storj?style=social&label=Stars&color=white)](https://github.com/storj/storj/stargazers)  
+11. **[Storj](https://github.com/storj/storj)** [![GitHub_Stars](https://img.shields.io/github/stars/storj/storj?style=social&label=Stars&color=white)](https://github.com/storj/storj/stargazers)  
     **Decentralized, Secure S3-Compatible Cloud Storage** — Encrypts, fragments, and distributes files across thousands of independent geographic nodes with automated Reed-Solomon erasure coding and zero-knowledge privacy.
 
-12. **[Curve](https://github.com/opencurve/curve)** [![GitHub stars](https://img.shields.io/github/stars/opencurve/curve?style=social&label=Stars&color=white)](https://github.com/opencurve/curve/stargazers)  
+12. **[Curve](https://github.com/opencurve/curve)** [![GitHub_Stars](https://img.shields.io/github/stars/opencurve/curve?style=social&label=Stars&color=white)](https://github.com/opencurve/curve/stargazers)  
     **High-Performance Distributed Storage Engine (CNCF Sandbox)** — Built by NetEase. Delivers ultra-low latency block storage for virtual machines and databases, as well as an elastic shared file system for containerized AI computing clusters.
 
-13. **[MooseFS](https://github.com/moosefs/moosefs)** [![GitHub stars](https://img.shields.io/github/stars/moosefs/moosefs?style=social&label=Stars&color=white)](https://github.com/moosefs/moosefs/stargazers)  
+13. **[MooseFS](https://github.com/moosefs/moosefs)** [![GitHub_Stars](https://img.shields.io/github/stars/moosefs/moosefs?style=social&label=Stars&color=white)](https://github.com/moosefs/moosefs/stargazers)  
     **Petabyte-Scale Fault-Tolerant Distributed POSIX Filesystem** — Pure C implementation featuring per-file configurable replication, directory project quotas, atomic snapshots, built-in file-level trash retention, and block device mapping (`mfsbdev`).
 
-14. **[LINSTOR](https://github.com/LINBIT/linstor-server)** [![GitHub stars](https://img.shields.io/github/stars/LINBIT/linstor-server?style=social&label=Stars&color=white)](https://github.com/LINBIT/linstor-server/stargazers)  
+14. **[LINSTOR](https://github.com/LINBIT/linstor-server)** [![GitHub_Stars](https://img.shields.io/github/stars/LINBIT/linstor-server?style=social&label=Stars&color=white)](https://github.com/LINBIT/linstor-server/stargazers)  
     **High-Performance Software-Defined Block Storage Orchestration** — Integrates DRBD replication with Linux LVM and ZFS to orchestrate replicated block devices across Kubernetes, OpenStack, Proxmox, and Docker with near bare-metal performance.
 
-15. **[Sheepdog](https://github.com/sheepdog/sheepdog)** [![GitHub stars](https://img.shields.io/github/stars/sheepdog/sheepdog?style=social&label=Stars&color=white)](https://github.com/sheepdog/sheepdog/stargazers)  
+15. **[Sheepdog](https://github.com/sheepdog/sheepdog)** [![GitHub_Stars](https://img.shields.io/github/stars/sheepdog/sheepdog?style=social&label=Stars&color=white)](https://github.com/sheepdog/sheepdog/stargazers)  
     **Distributed Block Storage for QEMU / KVM** — Autonomous replicated block device designed specifically for virtual machine images with thin provisioning, snapshotting, and cluster volume management.
 
-16. **[LizardFS](https://github.com/lizardfs/lizardfs)** [![GitHub stars](https://img.shields.io/github/stars/lizardfs/lizardfs?style=social&label=Stars&color=white)](https://github.com/lizardfs/lizardfs/stargazers)  
+16. **[LizardFS](https://github.com/lizardfs/lizardfs)** [![GitHub_Stars](https://img.shields.io/github/stars/lizardfs/lizardfs?style=social&label=Stars&color=white)](https://github.com/lizardfs/lizardfs/stargazers)  
     **Highly Reliable Distributed File System** — Fork of MooseFS with multi-datacenter support, erasure coding, and advanced POSIX ACL integration.
 
-17. **[DAOS](https://github.com/daos-stack/daos)** [![GitHub stars](https://img.shields.io/github/stars/daos-stack/daos?style=social&label=Stars&color=white)](https://github.com/daos-stack/daos/stargazers)  
+17. **[DAOS](https://github.com/daos-stack/daos)** [![GitHub_Stars](https://img.shields.io/github/stars/daos-stack/daos?style=social&label=Stars&color=white)](https://github.com/daos-stack/daos/stargazers)  
     **Distributed Asynchronous Object Storage (Linux Foundation)** — Next-generation storage stack optimized from the ground up for NVMe-oF and persistent memory (PMEM), offering extreme microsecond-range latency for HPC and AI simulation workloads.
 
-18. **[BeeGFS](https://github.com/ThinkParQ/beegfs)** [![GitHub stars](https://img.shields.io/github/stars/ThinkParQ/beegfs?style=social&label=Stars&color=white)](https://github.com/ThinkParQ/beegfs/stargazers)  
+18. **[BeeGFS](https://github.com/ThinkParQ/beegfs)** [![GitHub_Stars](https://img.shields.io/github/stars/ThinkParQ/beegfs?style=social&label=Stars&color=white)](https://github.com/ThinkParQ/beegfs/stargazers)  
     **Parallel Clustered File System for High-Performance Computing (HPC)** — Features distributed client striping, separate metadata targets, native InfiniBand/Omni-Path RDMA, and on-demand burst-buffer clustering (BeeOND).
 
-19. **[ZapFS](https://github.com/LeeDigitalWorks/zapfs)** [![GitHub stars](https://img.shields.io/github/stars/LeeDigitalWorks/zapfs?style=social&label=Stars&color=white)](https://github.com/LeeDigitalWorks/zapfs/stargazers)  
+19. **[ZapFS](https://github.com/LeeDigitalWorks/zapfs)** [![GitHub_Stars](https://img.shields.io/github/stars/LeeDigitalWorks/zapfs?style=social&label=Stars&color=white)](https://github.com/LeeDigitalWorks/zapfs/stargazers)  
     **Open-Core Distributed Object Storage** — S3-compatible object platform featuring Raft consensus managers, relational metadata engines, and multi-tenant access control policies.
 
 ---
@@ -150,7 +150,7 @@ Contributions from storage engineers, platform developers, and open-source advoc
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a dedicated topic branch** (`git checkout -b feature/add-storage-engine`).
-3. 📝 **Add or update entries** in `README.md` keeping formatting consistent (include name, repo/site link, specific pricing/star badges, and concise architecture notes).
+3. 📝 **Add or update entries** in `README.md` keeping formatting consistent (include name, repo/site link, specific pricing/Stars_Badges, and concise architecture notes).
 4. 🧪 **Verify all links and markdown rendering**.
 5. 🚀 **Submit a Pull Request** with a brief summary of the changes.
 
